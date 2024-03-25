@@ -1,1 +1,68 @@
-/*Schrijf hier jouw css*/
+/*de opperbody*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F3D9;
+    margin: 0;
+}
+
+/*deel 2*/
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #030027;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-grow: 1;
+    margin: 40px;
+    gap: 40px;
+}
+
+h2 {
+    color: #E6EAEB;
+    margin: 40px;
+
+}
+
+li {
+    color: #E6EAEB;
+    list-style-type: none;
+}
+
+/*deel 1*/
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 350px;
+    max-width: 280px;
+    background-color: #C16E70;
+    margin: 25px;
+}
+
+.titles > *, p {
+    text-align: center;
+}
+
+
